@@ -1,7 +1,7 @@
 # dockerfile/nginx Dockerfile
 
 # Base image
-FROM dockerfile/nginx
+FROM nginx
 
 ADD kegbot-nginx.conf.tmpl /etc/nginx/sites-available/kegbot.tmpl
 ADD run.sh /run.sh
